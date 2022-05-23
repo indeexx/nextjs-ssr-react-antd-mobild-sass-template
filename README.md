@@ -506,6 +506,13 @@ basePath: "/nextjs-demo",
 
 
 
+## PC端
+
+
+PC端只需要将*antd-mobile*改为*antd*，然后在*postcss.config.js*中增加相关样式类即可，也可以直接去掉px2rem的配置。
+
+
+
 服务器端渲染比较适合偏静态类页面或一些简单请求的页面，如官网、宣传页、博客、论坛、新闻等。
 
 
