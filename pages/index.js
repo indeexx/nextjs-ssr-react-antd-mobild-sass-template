@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
+import stylesPc from '../styles/pc.module.scss'
 import { Button, Steps, Avatar, List, Space } from 'antd-mobile';
 import {
   CheckCircleFill,
@@ -54,6 +55,8 @@ export default function Home() {
       </Head>
       <div className={styles.lalala}>啦啦啦</div>
       <div className={styles.rect}></div>
+      
+      <div className={'pc ' + stylesPc.pcContainer}>PC上显示</div>
 
       <Button onClick={handleAvatar}>跳转到关于页面</Button>
 
