@@ -10,9 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^3.14.0",
     "antd-mobile": "^5.12.4",
     "axios": "^0.27.2",
     "next": "12.1.6",
+    "prisma": "^3.14.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "sass": "^1.51.0"

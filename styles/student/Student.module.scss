@@ -1,0 +1,38 @@
+.student {
+  .studentList {
+    .tags {
+      padding: 0 10px;
+      border: 1px solid #f0f0f0;
+      border-bottom: none;
+      .tag {
+        width: 20%;
+        text-align: center;
+        padding: 5px 0px;
+        // border: 1px solid #f0f0f0;
+        border: none;
+        color: #888;
+        font-size: 16px;
+      }
+    }
+
+    .list {
+      .listItem {
+        .itemTag {
+          width: 20%;
+          text-align: center;
+          border: none;
+          color: #000;
+          font-size: 15px;
+        }
+        .edit{
+          color: #1677ff;
+          font-size: 18px;
+        }
+        .delete{
+          color: red;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
